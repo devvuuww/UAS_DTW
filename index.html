@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QUANTOM - Fast Food Management System</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/image/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/image/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/image/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/image/favicon/site.webmanifest">
+        <link rel="stylesheet" href="https://unpkg.com/img-comparison-slider@7/dist/styles.css" />
+        <script defer src="https://unpkg.com/img-comparison-slider@7/dist/index.js"></script>
+    </head>
+    <body>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <div class="logo-icon"><img src="assets/image/quantom-icon.png"></div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#articles">Articles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                        <li class="nav-item ms-lg-3">
+                            <a href="#pricing" class="btn btn-primary btn-orange">Start Free Trial</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="hero-section py-5">
+            <div class="container">
+                <div class="row align-items-start">
+                    <div class="col-lg-5">
+                        <h1 class="hero-title mb-4"><span class="keyword">QUANTOM</span><br>keeps orders, kitchen, and inventory in sync so your crew can move fast and guests stay happy.</h1>
+                        <div class="d-flex flex-wrap gap-3 mb-4">
+                            <a href="#" class="btn btn-primary btn-orange">Start Free Trial <i class="bi bi-arrow-right ms-1"></i></a>
+                            <a href="#" class="btn btn-outline-dark btn-rounded">See How It Works</a>
+                        </div>
+                        <div class="info-box d-flex align-items-center">
+                            <div class="icon-circle me-3">
+                                <i class="bi bi-lightning-charge-fill"></i>
+                            </div>
+                            <span>Works on tablets, phones, and POS stations.</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-1"></div>
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="carousel-inner rounded-4 overflow-hidden">
+                                <div class="carousel-item active">
+                                    <img src="https://images.unsplash.com/photo-1586816001966-79b736744398?q=80&w=1200&auto=format&fit=crop" alt="customized burger" class="d-block w-100 hero-carousel-img">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Smart Modifiers</h5>
+                                        <p>No friction, no missed orders.</p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="https://cdn.prod.website-files.com/668ee8ef7e71b9dfc6b14480/696f88226a745a96583bfeee_Kitchen%20Display%20System%20-%20Edited.png" alt="modern kitchen" class="d-block w-100 hero-carousel-img">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Precision KDS</h5>
+                                        <p>Faster tickets. Total visibility.</p>
+                                    </div>
+                                </div>
+
+                                <div class="carousel-item">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGFRwP26-jU3nLZemctWeTUIeQlLiyeaENfA&s" alt="organized restaurant inventory" class="d-block w-100 hero-carousel-img">
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Intelligent Stock</h5>
+                                        <p>RTrack usage. End waste.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- What is QUANTOM Section -->
+        <section class="what-is-section py-5" id="about">
+            <div class="container">
+                <div class="text-center mb-5" data-aos="fade-up" data-aos-duration="200">
+                    <span class="badge badge-orange mb-3">WHAT IS QUANTOM?</span>
+                    <h2 class="section-title text-white">THE FAST FOOD<br>MANAGEMENT SYSTEM</h2>
+                    <p class="section-desc text-white-50 mx-auto" style="max-width: 700px;">
+                        QUANTOM (Quantity + Order + Management) is an End-to-End (E2E) operational model that focuses on fast service, high efficiency, and consistent food quality. It uses standardized processes, quick preparation methods, and digital systems such as POS to manage orders and operations.
+                    </p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="feature-card"  data-aos="fade-up" data-aos-duration="200">
+                            <div class="icon-box mb-3">
+                                <i class="bi bi-cart3"></i>
+                            </div>
+                            <h5>Ordering Made Easy!</h5>
+                            <p class="text-muted">Customers can place orders quickly as a Guest. Want to unlock special promos? Encourage them to log in and turn casual buyers into loyal members!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-card"  data-aos="fade-up" data-aos-duration="400">
+                            <div class="icon-box mb-3">
+                                <i class="bi bi-clock"></i>
+                            </div>
+                            <h5>Fast Kitchen, Happy Customers!</h5>
+                            <p class="text-muted">Orders are instantly sent to the right outlet and crew. Order status is clearly tracked from preparation to ready to serve. Efficient and transparent!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="feature-card"  data-aos="fade-up" data-aos-duration="600">
+                            <div class="icon-box mb-3">
+                                <i class="bi bi-box-seam"></i>
+                            </div>
+                            <h5>Automatic Restocking</h5>
+                            <p class="text-muted">The system alerts you when stock is running low. Record supplier purchases and access restock history in just a few clicks. Never run out!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <!-- Stacking Burger Scroll Effect Section -->
+        <section class="burger-stack-section py-5" id="burger-stack">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="badge badge-orange mb-3">BUILD YOUR SUCCESS</span>
+                    <h2 class="section-title">Layer by Layer, We've Got You Covered</h2>
+                    <p class="text-muted">Scroll down to build your perfect restaurant workflow</p>
+                </div>
+                <div class="burger-stack-container">
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" class="burger-layer" id="bun-bottom">
+                        <div class="layer-content">
+                            <span class="layer-emoji">🥯</span>
+                            <h4>Strong Foundation</h4>
+                            <p>Reliable POS that works even when the internet doesn't</p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in-left" data-aos-duration="1000" class="burger-layer" id="patty">
+                        <div class="layer-content">
+                            <span class="layer-emoji">🥩</span>
+                            <h4>The Meat: Smart Ordering</h4>
+                            <p>QR codes, online orders, and counter—all in one place</p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" class="burger-layer" id="cheese">
+                        <div class="layer-content">
+                            <span class="layer-emoji">🧀</span>
+                            <h4>The Cheese: Kitchen Display</h4>
+                            <p>Clear tickets, timers, and allergen alerts keep everyone in sync</p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in-left" data-aos-duration="1000" class="burger-layer" id="lettuce">
+                        <div class="layer-content">
+                            <span class="layer-emoji">🥬</span>
+                            <h4>The Crunch: Inventory Tracking</h4>
+                            <p>Real-time stock levels and auto-alerts before you run low</p>
+                        </div>
+                    </div>
+                    <div data-aos="zoom-in-right" data-aos-duration="1000" class="burger-layer" id="tomato">
+                        <div class="layer-content">
+                            <span class="layer-emoji">🍅</span>
+                            <h4>The Freshness: Reporting</h4>
+                            <p>Know what's selling, what's not, and when your rush hours are</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Easy Ordering Section -->
+        <section class="feature-detail-section py-5" id="features">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="feature-image position-relative">
+                            <span class="badge badge-feature top-left">FEATURE<br><small>Guest Experience</small></span>
+                            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&h=400&fit=crop" alt="Burger" class="img-fluid rounded-4">
+                            <span class="badge badge-benefit bottom-right">BENEFIT<br><small>Order in seconds</small></span>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" class="col-lg-6 mt-4 mt-lg-0 ps-lg-5">
+                        <h2 class="feature-title">EASY ORDERING</h2>
+                        <p class="feature-desc">Guests order fast—at the table, online, or at the counter. No friction, no missed modifiers.</p>
+                        <div class="feature-tags mb-3">
+                            <span class="tag">•QR TABLE ORDERING</span>
+                            <span class="tag">•ONLINE PRE-ORDERS</span>
+                            <span class="tag">•MODIFIER PROMPTS</span>
+                            <span class="tag">•SPLIT CHECKS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fast Kitchen Section -->
+        <section class="feature-detail-section py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center flex-row-reverse">
+                    <div class="col-lg-6">
+                        <div class="feature-image position-relative">
+                            <span class="badge badge-feature top-right">FEATURE<br><small>Kitchen Ops</small></span>
+                            <img src="https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?w=600&h=400&fit=crop" alt="Fried Chicken" class="img-fluid rounded-4">
+                            <span class="badge badge-benefit bottom-left">BENEFIT<br><small>Clear tickets, every time</small></span>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="col-lg-6 mt-4 mt-lg-0 pe-lg-5">
+                        <h2 class="feature-title">FAST KITCHEN</h2>
+                        <p class="feature-desc">Orders hit the kitchen display instantly—prioritized, timed, and easy to track from prep to handoff.</p>
+                        <div class="feature-tags mb-3">
+                            <span class="tag">•KDS WITH TIMERS</span>
+                            <span class="tag">•COURSE FIRING</span>
+                            <span class="tag">•ALLERGEN ALERTS</span>
+                            <span class="tag">•PREP FORECASTING</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Smart Inventory Section -->
+        <section class="feature-detail-section py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="feature-image position-relative">
+                            <span class="badge badge-feature top-left">FEATURE<br><small>Stock Control</small></span>
+                            <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?w=600&h=400&fit=crop" alt="Tacos" class="img-fluid rounded-4">
+                            <span class="badge badge-benefit bottom-right">BENEFIT<br><small>Auto-alerts before you run out</small></span>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left" class="col-lg-6 mt-4 mt-lg-0 ps-lg-5">
+                        <h2 class="feature-title">SMART INVENTORY</h2>
+                        <p class="feature-desc">Track usage, set par levels, and get low-stock alerts. Reduce waste and never runs out a top seller.</p>
+                        <div class="feature-tags mb-3">
+                            <span class="tag">•REAL-TIME COUNTS</span>
+                            <span class="tag">•AUTO RESTOCKS</span>
+                            <span class="tag">•WASTE LOGGING</span>
+                            <span class="tag">•VENDOR LISTS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Chaos to Calm Slider Section -->
+        <section class="chaos-calm-section py-5 bg-warm">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="badge badge-orange mb-3">SEE THE MAGIC</span>
+                    <h2 class="section-title">From Chaos to Calm</h2>
+                    <p class="text-muted">Drag the slider to see how QUANTOM transforms your kitchen</p>
+                </div>
+                <div class="row justify-content-center" data-aos="fade-up" data-aos-duration="200">
+                    <div class="col-lg-8">
+                        <div class="slider-container squircle-card-lg" style="position: relative;">
+                            
+                            <div class="slider-label chaos-label">
+                                <span>😰 Before QUANTOM</span>
+                                <small>Chaotic, stressful</small>
+                            </div>
+
+                            <div class="slider-label calm-label">
+                                <span>😊 With QUANTOM</span>
+                                <small>Organized, calm, efficient</small>
+                            </div>
+
+                            <img-comparison-slider>
+                                <figure slot="first" class="m-0">
+                                    <img src="https://i.ytimg.com/vi/xrXrQ46quhU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAga7plR54rhqks57vnXNoTArBbLA" alt="Chaotic Kitchen" width="100%">
+                                </figure>
+                                
+                                <figure slot="second" class="m-0">
+                                    <img src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=800&h=500&fit=crop" alt="Organized Kitchen" width="100%">
+                                </figure>
+                            </img-comparison-slider>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Everything Your Counter Needs Section - Creative Interactive -->
+        <section class="counter-needs-section py-5">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="badge badge-white mb-3">POWERFUL FEATURES</span>
+                    <h2 class="section-title text-white">Everything Your Counter<br>Needs</h2>
+                    <p class="text-white-70">A modular platform that plays nice with your hardware</p>
+                </div>
+                
+                <!-- Interactive Feature Cards with Hover Reveal -->
+                <div class="counter-features-grid">
+                    <!-- Menu Management -->
+                    <div class="counter-feature-card" data-feature="menu" data-aos="flip-left" data-aos-duration="200">
+                        <div class="feature-card-front">
+                            <div class="feature-icon-wrap">
+                                <div class="feature-icon-bg">
+                                    <i class="bi bi-menu-button-wide"></i>
+                                </div>
+                            </div>
+                            <h5>Menu Management</h5>
+                            <p class="feature-short">Update items, prices, and 86s in seconds</p>
+                        </div>
+                        <div class="feature-card-back">
+                            <h6><i class="bi bi-stars"></i> What You Can Do</h6>
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check2"></i> Drag & drop menu builder</li>
+                                <li><i class="bi bi-check2"></i> Real-time price updates</li>
+                                <li><i class="bi bi-check2"></i> Real-time availability updates</li>
+                                <li><i class="bi bi-check2"></i> Photo & description manager</li>
+                                <li><i class="bi bi-check2"></i> Combo & modifier setup</li>
+                            </ul>
+                            <div class="feature-stat">
+                                <span class="stat-number-sm">50+</span>
+                                <span class="stat-label-sm">menu items in 2 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Smart Reporting -->
+                    <div class="counter-feature-card" data-feature="reporting" data-aos="flip-left" data-aos-duration="400">
+                        <div class="feature-card-front">
+                            <div class="feature-icon-wrap">
+                                <div class="feature-icon-bg">
+                                    <i class="bi bi-graph-up-arrow"></i>
+                                </div>                      
+                            </div>
+                            <h5>Smart Reporting</h5>
+                            <p class="feature-short">Daily summaries and insights at a glance</p>
+                        </div>
+                        <div class="feature-card-back">
+                            <h6><i class="bi bi-stars"></i> What You Can Do</h6>
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check2"></i> Daily sales summaries</li>
+                                <li><i class="bi bi-check2"></i> Item-level analytics</li>
+                                <li><i class="bi bi-check2"></i> Labor cost tracking</li>
+                                <li><i class="bi bi-check2"></i> Peak hour insights</li>
+                                <li><i class="bi bi-check2"></i> Export to Excel/PDF</li>
+                            </ul>
+                            <div class="feature-stat">
+                                <span class="stat-number-sm">25+</span>
+                                <span class="stat-label-sm">report templates</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Staff Accounts -->
+                    <div class="counter-feature-card mb-3" data-feature="reporting" data-aos="flip-left" data-aos-duration="400">
+                        <div class="feature-card-front">
+                            <div class="feature-icon-wrap">
+                                <div class="feature-icon-bg">
+                                    <i class="bi bi-person"></i>
+                                </div>                      
+                            </div>
+                            <h5>Staff Accounts</h5>
+                            <p class="feature-short">Roles, permissions, and time tackingr</p>
+                        </div>
+                        <div class="feature-card-back">
+                            <h6><i class="bi bi-stars"></i> What You Can Do</h6>
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check2"></i> Clock in/out tracking</li>
+                                <li><i class="bi bi-check2"></i> Permission Levels</li>
+                                <li><i class="bi bi-check2"></i> Performance metrics</li>
+                                <li><i class="bi bi-check2"></i>Shift scheduling</li>
+                                <li><i class="bi bi-check2"></i>Staff activity logs</li>
+                            </ul>
+                            <div class="feature-stat">
+                                <span class="stat-number-sm">Unlimited</span>
+                                <span class="stat-label-sm">Staff Accounts</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Integrations -->
+                    <div class="counter-feature-card" data-feature="integrations" data-aos="flip-left" data-aos-duration="200">
+                        <div class="feature-card-front">
+                            <div class="feature-icon-wrap">
+                                <div class="feature-icon-bg">
+                                    <i class="bi bi-lightning-charge"></i>
+                                </div>
+                            </div>
+                            <h5>Integrations</h5>
+                            <p class="feature-short">Delivery, accounting, payments connected</p>
+                        </div>
+                        <div class="feature-card-back">
+                            <h6><i class="bi bi-stars"></i> What You Can Do</h6>
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check2"></i> GrabFood, GoFood, Shopee</li>
+                                <li><i class="bi bi-check2"></i> Jurnal, Accurate Online sync</li>
+                                <li><i class="bi bi-check2"></i> Multiple payment gateways</li>
+                                <li><i class="bi bi-check2"></i> Accounting auto-export</li>
+                                <li><i class="bi bi-check2"></i> Webhook API access</li>
+                            </ul>
+                            <div class="feature-stat">
+                                <span class="stat-number-sm">30+</span>
+                                <span class="stat-label-sm">integrations</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Offline Mode -->
+                    <div class="counter-feature-card" data-feature="offline" data-aos="flip-left" data-aos-duration="400">
+                        <div class="feature-card-front">
+                            <div class="feature-icon-wrap">
+                                <div class="feature-icon-bg">
+                                    <i class="bi bi-wifi-off"></i>
+                                </div>
+                            </div>
+                            <h5>Offline Mode</h5>
+                            <p class="feature-short">Keep selling when internet hiccups</p>
+                        </div>
+                        <div class="feature-card-back">
+                            <h6><i class="bi bi-stars"></i> What You Can Do</h6>
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check2"></i> Full POS functionality</li>
+                                <li><i class="bi bi-check2"></i> Local data storage</li>
+                                <li><i class="bi bi-check2"></i> Auto-sync when back</li>
+                                <li><i class="bi bi-check2"></i> Receipt printing works</li>
+                                <li><i class="bi bi-check2"></i> Zero data loss</li>
+                            </ul>
+                            <div class="feature-stat">
+                                <span class="stat-number-sm">99%</span>
+                                <span class="stat-label-sm">uptime guaranteed</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- 24/7 Support -->
+                    <div class="counter-feature-card" data-feature="support" data-aos="flip-left" data-aos-duration="600">
+                        <div class="feature-card-front">
+                            <div class="feature-icon-wrap">
+                                <div class="feature-icon-bg">
+                                    <i class="bi bi-headset"></i>
+                                </div>
+                            </div>
+                            <h5>24/7 Support</h5>
+                            <p class="feature-short">We're always here when you need us</p>
+                        </div>
+                        <div class="feature-card-back">
+                            <h6><i class="bi bi-stars"></i> What You Get</h6>
+                            <ul class="feature-list">
+                                <li><i class="bi bi-check2"></i> Live chat support</li>
+                                <li><i class="bi bi-check2"></i> Video call onboarding</li>
+                                <li><i class="bi bi-check2"></i> Knowledge base</li>
+                                <li><i class="bi bi-check2"></i> Priority response</li>
+                                <li><i class="bi bi-check2"></i> Dedicated account manager</li>
+                            </ul>
+                            <div class="feature-stat">
+                                <span class="stat-number-sm">&lt;5 min</span>
+                                <span class="stat-label-sm">avg. response time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="stats-section py-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-6 col-md-3">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Areas Covered</div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-number" data-target="1000">0</div>
+                        <div class="stat-label">Merchants</div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">Brands</div>
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div class="stat-number" data-target="99">0</div>
+                        <div class="stat-label">Uptime %</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonial Section -->
+        <section class="testimonial-section py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="testimonial-image position-relative">
+                            <img src="https://www.shiftbase.com/hs-fs/hubfs/smiling%20asian%20female%20bar%20manager%20or%20employee%20in%20cafe%20looking%20at%20laptop.jpg?width=725&name=smiling%20asian%20female%20bar%20manager%20or%20employee%20in%20cafe%20looking%20at%20laptop.jpg" alt="Maya" class="img-fluid rounded-4">
+                            <span class="badge badge-role bottom-center">ROLE<br><small>Maya, Restaurant General Manager</small></span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 mt-4 mt-lg-0 ps-lg-5" data-aos="fade-left" data-aos-duration="400">
+                        <h1>TESTIMONIAL</h1>
+                        <p class="testimonial-text"><span style="color: #FF9100;"><b>" </b></span>We used to miss modifiers during the rush. With <span style="color : #FF9100"><b>QUANTOM</b></span> , the kitchen sees exactly what the guest ordered and our ticket times dropped <span style="color: #FF9100;"><b> "</b></span></p>
+                        <p class="testimonial-author">Maya, Restaurant General Manager <span class="text-muted">• Fast Food Restaurant</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing-section py-5" id="pricing">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="badge badge-white mb-3">PRICING</span>
+                    <h2 class="section-title text-white">SIMPLE PRICING</h2>
+                    <p class="text-white-50">Start free. Upgrade when you're ready. No setup fees.</p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-md-4">
+                        <div class="pricing-card" data-aos="fade-up" data-aos-duration="400">
+                            <h6 class="text-muted">Starter</h6>
+                            <h3 class="pricing-price">Free</h3>
+                            <p class="small text-muted">1 location, basic menu, email support.</p>
+                            <ul class="pricing-features">
+                                <li><i class="bi bi-check-circle-fill"></i> 1 Location</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Basic Menu</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Email Support</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Standard Reports</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-dark w-100 btn-rounded">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-card" data-aos="fade-up" data-aos-duration="800">
+                            <h6 class="text-muted">Growth</h6>
+                            <h3 class="pricing-price">$49/mo</h3>
+                            <p class="small text-muted">Multiple stations, reporting, chat support.</p>
+                            <ul class="pricing-features">
+                                <li><i class="bi bi-check-circle-fill"></i> Multiple Stations</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Advanced Reporting</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Chat Support</li>
+                                <li><i class="bi bi-check-circle-fill"></i> KDS Basic</li>
+                            </ul>
+                            <a href="#" class="btn btn-outline-dark w-100 btn-rounded">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="pricing-card popular" data-aos="fade-up" data-aos-duration="1200">
+                            <span class="badge badge-popular">POPULAR</span>
+                            <h6 class="text-muted">Pro</h6>
+                            <h3 class="pricing-price">$99/mo</h3>
+                            <p class="small text-muted">Unlimited staff, KDS, integrations, priority support.</p>
+                            <ul class="pricing-features">
+                                <li><i class="bi bi-check-circle-fill"></i> Unlimited Staff</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Full KDS</li>
+                                <li><i class="bi bi-check-circle-fill"></i> All Integrations</li>
+                                <li><i class="bi bi-check-circle-fill"></i> Priority Support</li>
+                            </ul>
+                            <a href="#" class="btn btn-dark w-100 btn-rounded">Get Started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Working Partners-->
+        <section class="partners-section py-5">
+            <div class="container">
+                <div class="row align-items-center text-center py-5">
+                    <div class="col-lg-12">
+                        <h2 class="partners-title">OUR PARTNERS</h2>
+                        <p class="partners-desc">Top F&B Brands Using QUANTOM.</p>
+                    </div>
+                </div>
+                <div class="logo-slider">
+                    <div class="logo-slide-track">
+                        <div class="logo-slide"><img src="assets/image/mcdonald_icon.png" alt="McDonalds"></div>
+                        <div class="logo-slide"><img src="assets/image/kfc_icon.png" alt="KFC"></div>
+                        <div class="logo-slide"><img src="assets/image/starbucks_icon.png" alt="Starbucks"></div>
+                        <div class="logo-slide"><img src="assets/image/subway_icon.png" alt="Subway"></div>
+                        <div class="logo-slide"><img src="assets/image/pizza_hut_icon.png" alt="Pizza Hut"></div>
+                        <div class="logo-slide"><img src="assets/image/dominos_icon.png" alt="Dominos Pizza"></div>
+                        <div class="logo-slide"><img src="assets/image/burger_king_icon.png" alt="Burger King"></div>
+
+                        <div class="logo-slide"><img src="assets/image/mcdonald_icon.png" alt="McDonalds"></div>
+                        <div class="logo-slide"><img src="assets/image/kfc_icon.png" alt="KFC"></div>
+                        <div class="logo-slide"><img src="assets/image/starbucks_icon.png" alt="Starbucks"></div>
+                        <div class="logo-slide"><img src="assets/image/subway_icon.png" alt="Subway"></div>
+                        <div class="logo-slide"><img src="assets/image/pizza_hut_icon.png" alt="Pizza Hut"></div>
+                        <div class="logo-slide"><img src="assets/image/dominos_icon.png" alt="Dominos Pizza"></div>
+                        <div class="logo-slide"><img src="assets/image/burger_king_icon.png" alt="Burger King"></div>
+                    </div>
+                </div>
+            </container>
+        </section>
+        
+
+        <!-- Articles Section -->
+        <section class="articles-section py-5" id="articles">
+            <div class="container">
+                <div class="text-center mb-5">
+                    <span class="badge badge-orange mb-3"><i class="bi bi-journal-text me-2"></i>ARTICLES</span>
+                    <h2 class="section-title">LATEST INSIGHTS</h2>
+                    <p class="text-muted">Tips, trends, and stories from the F&B world</p>
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="article-card">
+                            <div class="article-image">
+                                <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=250&fit=crop" alt="Restaurant Tips">
+                                <span class="article-category">Tips</span>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    <i class="bi bi-calendar3"></i> Jan 15, 2026
+                                    <span class="ms-2"><i class="bi bi-clock"></i> 5 min read</span>
+                                </div>
+                                <h5>Easy Ordering With QUANTOM !</h5>
+                                <p class="text-muted small">Discover proven strategies to reduce ticket times and improve customer satisfaction.</p>
+                                <a href="article-details/quantom-ordering.html" class="article-link">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="article-card">
+                            <div class="article-image">
+                                <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=400&h=250&fit=crop" alt="POS System">
+                                <span class="article-category">Technology</span>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    <i class="bi bi-calendar3"></i> Jan 10, 2026
+                                    <span class="ms-2"><i class="bi bi-clock"></i> 7 min read</span>
+                                </div>
+                                <h5>Why Modern POS Systems Are Game Changers, Smart Inventory </h5>
+                                <p class="text-muted small">Learn how digital transformation is reshaping the restaurant industry.</p>
+                                <a href="article-details/modern-pos-trends.html" class="article-link">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="article-card">
+                            <div class="article-image">
+                                <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=400&h=250&fit=crop" alt="Customer Experience">
+                                <span class="article-category">Growth</span>
+                            </div>
+                            <div class="article-content">
+                                <div class="article-meta">
+                                    <i class="bi bi-calendar3"></i> Jan 5, 2026
+                                    <span class="ms-2"><i class="bi bi-clock"></i> 4 min read</span>
+                                </div>
+                                <h5>Building Customer Loyalty in Fast Food</h5>
+                                <p class="text-muted small">Expert tips on turning first-time visitors into regular customers.</p>
+                                <a href="article-details/customer-loyalty.html" class="article-link">Read More <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <a href="articles.html" target="_blank" class="btn btn-outline-dark btn-rounded">View All Articles</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section py-5" id="faq">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 text-center mb-5">
+                        <span class="badge badge-orange mb-3"><i class="bi bi-question-circle me-2"></i>FAQ</span>
+                        <h2 class="section-title">GOT QUESTIONS?</h2>
+                        <p class="text-muted">We've got answers! Here's everything you need to know.</p>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="accordion" id="faqAccordion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                        <span class="faq-icon"><i class="bi bi-question-lg"></i></span>
+                                        How quickly can I get started with QUANTOM?
+                                    </button>
+                                </h2>
+                                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Most restaurants are up and running within 24 hours! Our onboarding team will help you set up your menu, connect your devices, and train your staff. No technical expertise required.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                        <span class="faq-icon"><i class="bi bi-question-lg"></i></span>
+                                        Can I use QUANTOM on my existing hardware?
+                                    </button>
+                                </h2>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        Absolutely! QUANTOM works on most modern tablets, phones, and POS stations. We support iOS, Android, and Windows devices. Just download the app and you're good to go!
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="text-center mt-4">
+                                    <a href="faq.html" target="_blank" class="btn btn-outline-dark btn-rounded">View All FAQ</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section-new">
+            <!-- Floating Food Decorations -->
+            <div class="contact-float-decoration float-fries-contact">
+                <img src="assets/image/fries_float.png" alt="Fries">
+            </div>
+            <div class="contact-float-decoration float-drink-contact">
+                <img src="assets/image/drink_float.png" alt="Drink">
+            </div>
+            <div class="contact-float-decoration float-pizza-contact">
+                <img src="assets/image/pizza_float.png" alt="Pizza">
+            </div>
+            <div class="contact-float-decoration float-chicken-contact">
+                <img src="assets/image/chicken_float.png" alt="Chicken">
+            </div>
+            <div class="contact-float-decoration float-hotdog-contact">
+                <img src="assets/image/hotdog_float.png" alt="Hotdog">
+            </div>
+
+            <!-- Background Pattern -->
+            <div class="contact-bg-pattern"></div>
+
+            <div class="container contact-container">
+                <!-- Burger Trigger View -->
+                <div id="burgerTrigger" class="burger-trigger-view">
+                    <span class="badge badge-orange mb-4 contact-badge-top">CONTACT US</span>
+                    <h2 class="contact-title-trigger">Hungry to Connect?</h2>
+                    <p class="contact-tagline">Tap the burger to get in touch!</p>
+                    
+                    <div class="burger-button-wrapper">
+                        <button id="burgerBtn" class="burger-reveal-btn" aria-label="Open contact form">
+                            <img src="assets/image/burger_contact.png" alt="Contact Burger" class="burger-icon-img">
+                            <div class="burger-pulse-ring"></div>
+                            <div class="burger-pulse-ring ring-2"></div>
+                        </button>
+                        <div class="click-hint">
+                            <i class="bi bi-hand-index-thumb-fill"></i>
+                            <span>Click me!</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Info Cards -->
+                    <div class="contact-quick-cards">
+                        <div class="quick-info-card" data-aos="fade-up" data-aos-duration="200">
+                            <div class="quick-icon">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <span>contact@quantom.id</span>
+                        </div>
+                        <div class="quick-info-card" data-aos="fade-up" data-aos-duration="400">
+                            <div class="quick-icon">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <span>+1 234 567 890</span>
+                        </div>
+                        <div class="quick-info-card" data-aos="fade-up" data-aos-duration="600">
+                            <div class="quick-icon">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <span>Tangerang, Banten</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form View (Hidden initially) -->
+                <div id="contactFormView" class="contact-form-view hidden">
+                    <button id="backToBurger" class="back-to-burger-btn" aria-label="Back to burger">
+                        <i class="bi bi-arrow-left"></i>
+                        <span>Back</span>
+                    </button>
+                    
+                    <div class="contact-form-card">
+                        <div class="form-card-header">
+                            <img src="assets/image/burger_contact.png" alt="" class="form-header-burger">
+                            <div>
+                                <h3 class="form-title">Let's Talk!</h3>
+                                <p class="form-subtitle">We're all ears... and burgers.</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Quick Action Topic Chips -->
+                        <div class="topic-chips">
+                            <button type="button" class="topic-chip" data-topic="order-help">
+                                <span class="chip-emoji">&#x1F354;</span>
+                                <span>Order Help</span>
+                            </button>
+                            <button type="button" class="topic-chip" data-topic="partnership">
+                                <span class="chip-emoji">&#x1F91D;</span>
+                                <span>Partnership</span>
+                            </button>
+                            <button type="button" class="topic-chip" data-topic="feedback">
+                                <span class="chip-emoji">&#x2B50;</span>
+                                <span>Feedback</span>
+                            </button>
+                        </div>
+                        
+                        <form id="contactFormNew" class="contact-form-inner">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label-new">
+                                            <i class="bi bi-person-fill"></i> Your Name
+                                        </label>
+                                        <input type="text" class="form-input-new" id="contactName" placeholder="Burger Lover" required>
+                                        <div class="input-focus-line"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="form-label-new">
+                                            <i class="bi bi-envelope-fill"></i> Email
+                                        </label>
+                                        <input type="email" class="form-input-new" id="contactEmail" placeholder="hello@yummy.com" required>
+                                        <div class="input-focus-line"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group mt-3">
+                                <label class="form-label-new">
+                                    <i class="bi bi-chat-dots-fill"></i> Message
+                                </label>
+                                <textarea class="form-input-new form-textarea-new" id="contactMessage" rows="4" placeholder="What's on your mind?" required></textarea>
+                                <div class="input-focus-line"></div>
+                            </div>
+                            
+                            <button type="submit" class="btn-submit-new" id="submitBtn">
+                                <span class="submit-text">Send Message</span>
+                                <span class="submit-icon"><i class="bi bi-send-fill"></i></span>
+                                <div class="ripple-effect"></div>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Success View -->
+                <div id="contactSuccess" class="contact-success-view hidden">
+                    <div class="success-animation">
+                        <div class="success-circle">
+                            <i class="bi bi-check-lg"></i>
+                        </div>
+                        <div class="success-confetti">
+                            <span class="confetti-piece" style="--i:1">&#x1F389;</span>
+                            <span class="confetti-piece" style="--i:2">&#x1F38A;</span>
+                            <span class="confetti-piece" style="--i:3">&#x2728;</span>
+                            <span class="confetti-piece" style="--i:4">&#x1F389;</span>
+                            <span class="confetti-piece" style="--i:5">&#x1F38A;</span>
+                        </div>
+                    </div>
+                    <h3 class="success-title">Order Up! Message Sent!</h3>
+                    <p class="success-subtitle">We'll get back to you faster than a drive-thru.</p>
+                    <button id="sendAnother" class="btn-send-another">
+                        <i class="bi bi-arrow-counterclockwise"></i> Send Another
+                    </button>
+                </div>
+            </div>
+        </section>
+
+
+        <footer class="footer-section-new">
+            <!-- Background Image with Overlay -->
+            <div class="footer-bg-image"></div>
+            <div class="footer-overlay"></div>
+            
+            <!-- Floating Food Decorations -->
+            <div class="footer-float-decoration footer-float-pizza">
+                <img src="assets/image/pizza_float.png" alt="">
+            </div>
+            <div class="footer-float-decoration footer-float-fries">
+                <img src="assets/image/fries_float.png" alt="">
+            </div>
+            <div class="footer-float-decoration footer-float-chicken">
+                <img src="assets/image/chicken_float.png" alt="">
+            </div>
+
+            <!-- Scroll to Top Button -->
+            <button id="scrollToTop" class="scroll-to-top-btn" aria-label="Scroll to top">
+                <i class="bi bi-chevron-up"></i>
+                <div class="scroll-ring"></div>
+            </button>
+
+            <div class="footer-content-wrapper">
+
+                <!-- Main Footer Content -->
+                <div class="footer-main">
+                    <div class="container">
+                        <div class="row g-4">
+                            <!-- Brand Column -->
+                            <div class="col-lg-4">
+                                <div class="footer-brand-card">
+                                    <div class="footer-logo-new">
+                                        <img src="assets/image/quantom-icon.png" alt="QUANTOM">
+                                    </div>
+                                    <p class="footer-brand-tagline">Smart POS for <span class="highlight">Fast Food</span> Success</p>
+                                    
+                                    <!-- Newsletter -->
+                                    <div class="footer-newsletter-new">
+                                        <p class="newsletter-label"><i class="bi bi-bell-fill"></i> Get tasty updates!</p>
+                                        <form class="newsletter-form-new" id="newsletterFormNew">
+                                            <input type="email" class="newsletter-input-new" placeholder="Your email" required>
+                                            <button type="submit" class="newsletter-submit-new">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Links Columns -->
+                            <div class="col-6 col-lg-2">
+                                <div class="footer-links-card">
+                                    <h5 class="footer-col-title"><i class="bi bi-grid-3x3-gap-fill"></i> Product</h5>
+                                    <ul class="footer-link-list">
+                                        <li><a href="#features" class="footer-link-new"><i class="bi bi-chevron-right"></i> Features</a></li>
+                                        <li><a href="#pricing" class="footer-link-new"><i class="bi bi-chevron-right"></i> Pricing</a></li>
+                                        <li><a href="#articles" class="footer-link-new"><i class="bi bi-chevron-right"></i> Integrations</a></li>
+                                        <li><a href="#contact" class="footer-link-new"><i class="bi bi-chevron-right"></i> Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-6 col-lg-2">
+                                <div class="footer-links-card">
+                                    <h5 class="footer-col-title"><i class="bi bi-folder-fill"></i> Resources</h5>
+                                    <ul class="footer-link-list">
+                                        <li><a href="articles.html" class="footer-link-new"><i class="bi bi-chevron-right"></i> Articles</a></li>
+                                        <li><a href="faq.html" class="footer-link-new"><i class="bi bi-chevron-right"></i> FAQ</a></li>
+                                        <li><a href="portfolio.html" class="footer-link-new"><i class="bi bi-chevron-right"></i> Project Team </a></li>
+                                        <li><a href="design-system.html" class="footer-link-new"><i class="bi bi-chevron-right"></i> Design System </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-2">
+                                <div class="footer-links-card">
+                                    <h5 class="footer-col-title"><i class="bi bi-heart-fill"></i> Connect</h5>
+                                    <div class="footer-social-new">
+                                        <a href="#" class="social-icon-new" aria-label="Instagram" style="--social-color: #E4405F;">
+                                            <i class="bi bi-instagram"></i>
+                                        </a>
+                                        <a href="#" class="social-icon-new" aria-label="Facebook" style="--social-color: #1877F2;">
+                                            <i class="bi bi-facebook"></i>
+                                        </a>
+                                        <a href="#" class="social-icon-new" aria-label="Twitter" style="--social-color: #1DA1F2;">
+                                            <i class="bi bi-twitter-x"></i>
+                                        </a>
+                                        <a href="#" class="social-icon-new" aria-label="LinkedIn" style="--social-color: #0A66C2;">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                        <a href="#" class="social-icon-new" aria-label="YouTube" style="--social-color: #FF0000;">
+                                            <i class="bi bi-youtube"></i>
+                                        </a>
+                                    </div>
+                                    <div class="footer-contact-mini mt-3">
+                                        <p><i class="bi bi-envelope-fill"></i> contact@quantom.id</p>
+                                        <p><i class="bi bi-telephone-fill"></i> +1 234 567 890</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Bottom Bar -->
+                <div class="footer-bottom-new">
+                    <div class="container">
+                        <div class="footer-bottom-inner">
+                            <p class="copyright-new">&copy; 2026 QUANTOM</p>
+                            <div class="footer-bottom-links">
+                                <a href="#">Privacy</a>
+                                <span class="divider">|</span>
+                                <a href="#">Terms</a>
+                                <span class="divider">|</span>
+                                <a href="#">Sitemap</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/script.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>

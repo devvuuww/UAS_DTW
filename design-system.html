@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Design System | QUANTOM</title>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/image/favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/image/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/image/favicon/favicon-16x16.png">
+        <link rel="manifest" href="/assets/image/favicon/site.webmanifest">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+            <div class="container">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <div class="logo-icon"><img src="assets/image/quantom-icon.png"></div>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto align-items-center">
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#features">Features</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#pricing">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="articles.html">Articles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="faq.html">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                        <li class="nav-item ms-lg-3">
+                            <a href="index.html#pricing" class="btn btn-primary btn-orange">Start Free Trial</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    <div class="ds-container">
+        <div class="ds-layout-wrapper">
+            <div class="container-fluid p-0">
+                <div class="row g-0">
+                    <aside class="col-auto ds-sidebar">
+                        <nav class="ds-nav">
+                            <div class="nav-group">Foundations</div>
+                            <a href="#visual" class="nav-link">Visual Principles</a>
+                            <a href="#color" class="nav-link">Color Palette</a>
+                            <a href="#typography" class="nav-link">Typography</a>
+                            
+                            <div class="nav-group">Structure</div>
+                            <a href="#layout" class="nav-link">Layout & Grid</a>
+                            <a href="#icons" class="nav-link">Iconography</a>
+                            
+                            <div class="nav-group">Interface</div>
+                            <a href="#components" class="nav-link">Components</a>
+                        </nav>
+                    </aside>
+
+                    <main class="col ds-content">
+                        <header class="ds-header">
+                            <h1>Design System</h1>
+                            <p class="lead">Building a seamless, efficient, and appetizing management experience for the fast food industry.</p>
+                        </header>
+                        <section id="visual" class="ds-section">
+                            <h2>Visual Principles</h2>
+                            <p>QUANTOM follows the HIG principle of <strong>Deference</strong>. The interface uses crisp edges and a clean white background to allow vibrant food photography and critical data metrics to stand out without competition.</p>
+                            <div class="row g-4 mt-2">
+                                <div class="col-md-4">
+                                    <div class="principle-card">
+                                        <h6>Clarity</h6>
+                                        <p>Text is legible and icons are precise to ensure speed during high-traffic kitchen hours.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="principle-card">
+                                        <h6>Depth</h6>
+                                        <p>Visual layers and soft shadows differentiate background tasks from active ordering chits.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="principle-card">
+                                        <h6>Consistency</h6>
+                                        <p>Uniform button radii and standard orange accents create a predictable user journey.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="color" class="ds-section">
+                            <h2>Color</h2>
+                            <p>Our palette uses "Appetite Colors" designed to evoke freshness while maintaining professional legibility.</p>
+                            <div class="color-grid">
+                                <div class="color-item">
+                                    <div class="swatch" style="background: #FF9100;"></div>
+                                    <div class="swatch-info">
+                                        <strong>Muted Orange</strong>
+                                        <code>#FF9100</code>
+                                        <p>Action items, CTA buttons, and brand emphasis.</p>
+                                    </div>
+                                </div>
+                                <div class="color-item">
+                                    <div class="swatch" style="background: #2D1B14;"></div>
+                                    <div class="swatch-info">
+                                        <strong>Deep Espresso</strong>
+                                        <code>#2D1B14</code>
+                                        <p>Headings, navigation text, and primary containers.</p>
+                                    </div>
+                                </div>
+                                <div class="color-item">
+                                    <div class="swatch" style="background: #F8F9FA; border: 1px solid #ddd;"></div>
+                                    <div class="swatch-info">
+                                        <strong>Broken White</strong>
+                                        <code>#F8F9FA</code>
+                                        <p>Section backgrounds and secondary layout containers.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                        <section id="typography" class="ds-section">
+                            <h2>Typography</h2>
+                            <p><strong>Montserrat</strong> provides a geometric and modern feel. It is utilized in various weights to establish a clear information hierarchy.</p>
+                            <div class="type-scale border p-4 rounded-4 bg-white">
+                                <div class="type-row"><span class="label">Display 1</span><span class="sample fw-extrabold" style="font-size: 3.5rem;">Intelligent Stock</span></div>
+                                <div class="type-row"><span class="label">Heading 1</span><span class="sample fw-bold" style="font-size: 2.5rem;">The Fast Food Management System</span></div>
+                                <div class="type-row"><span class="label">Body</span><span class="sample" style="font-size: 1rem;">Inventory in sync so your crew can move fast and guests stay happy.</span></div>
+                                <div class="type-row"><span class="label">Label</span><span class="sample text-uppercase fw-bold" style="font-size: 0.75rem; letter-spacing: 1px;">Powerful Features</span></div>
+                            </div>
+                        </section>
+
+                        <section id="layout" class="ds-section">
+                            <h2>Layout & Grid</h2>
+                            <p>The system utilizes a 12-column grid. Key spacing rules include:</p>
+                            <ul>
+                                <li><strong>Safe Areas:</strong> 15px-20px padding for mobile touch targets.</li>
+                                <li><strong>Section Vertical Padding:</strong> 80px-100px to maintain breathing room.</li>
+                                <li><strong>Max Width:</strong> Content containers are capped at 1200px for desktop readability.</li>
+                            </ul>
+                        </section>
+
+                        <section id="icons" class="ds-section">
+                            <h2>Iconography</h2>
+                            <p>Following the HIG principle of <strong>Simplicity</strong>, icons in QUANTOM are used to provide immediate visual context without needing to read text. We utilize the <strong>Bootstrap Icons</strong> set for consistency and scalability.</p>
+                            
+                            <div class="icon-guidelines">
+                                <h5>Usage Rules</h5>
+                                <ul>
+                                    <li><strong>Scale:</strong> Icons should generally be sized at 24px for standard UI and 32px-40px for feature highlights.</li>
+                                    <li><strong>Color:</strong> Icons should inherit the text color or use <code>#FF9100</code> (Primary Orange) to denote interactivity or key features.</li>
+                                    <li><strong>Weight:</strong> Use "stroke" versions rather than "filled" to maintain a light, modern aesthetic.</li>
+                                </ul>
+                            </div>
+
+                            <div class="row g-3 mt-4">
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-cart-check"></i>
+                                    <code>bi-cart-check</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-clock-history"></i>
+                                    <code>bi-clock-history</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-box-seam"></i>
+                                    <code>bi-box-seam</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-lightning-charge"></i>
+                                    <code>bi-lightning</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-star"></i>
+                                    <code>bi-star</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-person-circle"></i>
+                                    <code>bi-person</code>
+                                </div>
+                            </div>
+                            <div class="row g-3 mt-4">
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-menu-button-wide"></i>
+                                    <code>bi-menu-wide</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-check2"></i>
+                                    <code>bi-check2</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-graph-up-arrow"></i>
+                                    <code>bi-graph-up-arrow</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-people"></i>
+                                    <code>bi-people</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-wifi-off"></i>
+                                    <code>bi-wifi-off</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-headset"></i>
+                                    <code>bi-headset</code>
+                                </div>
+                            </div>
+                             <div class="row g-3 mt-4">
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-cart3"></i>
+                                    <code>bi-cart3</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-clock"></i>
+                                    <code>bi-clock</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-calendar3"></i>
+                                    <code>bi-calendar3</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-bell-fill"></i>
+                                    <code>bi-bell-fill</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-grid-3x3-gap-fill"></i>
+                                    <code>bi-grid-3x3-gap-fill</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-chevron-right"></i>
+                                    <code>bi-chevron-right</code>
+                                </div>
+                            </div>
+                            <div class="row g-3 mt-4">
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-heart-fill"></i>
+                                    <code>bi-heart-fill</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-folder-fill"></i>
+                                    <code>bi-folder-fill</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-envelope-fill"></i>
+                                    <code>bi-envelope-fill</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-telephone-fill"></i>
+                                    <code>bi-telephone-fill</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-geo-alt-fill"></i>
+                                    <code>bi-geo-alt-fill</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-chevron-up"></i>
+                                    <code>bi-chevron-up</code>
+                                </div>
+                            </div>
+                            <div class="row g-3 mt-4">
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-arrow-right"></i>
+                                    <code>bi-arrow-right</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-instagram"></i>
+                                    <code>bi-instagram</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-facebook"></i>
+                                    <code>bi-facebook</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-twitter-x"></i>
+                                    <code>bi-twitter-x</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-linkedin"></i>
+                                    <code>bi-linkedin</code>
+                                </div>
+                                <div class="col-md-2 text-center icon-sample">
+                                    <i class="bi bi-youtube"></i>
+                                    <code>bi-youtube</code>
+                                </div>
+                            </div>
+                        </section>
+
+                        
+
+
+                        <section id="components" class="ds-section">
+                        <h2>Components</h2>
+                            <div class="comp-box">
+                                <h5>Buttons</h5>
+                                <p>Buttons use a high border-radius (50px) to feel approachable and modern.</p>
+                                <div class="d-flex gap-3 align-items-center mb-4">
+                                    <button class="btn btn-primary btn-orange align-self-center">Start Free Trial</a>
+                                    <button class="btn btn-outline-dark btn-rounded align-self-center">See How It Works</a>
+                                    <button class="btn btn-dark px-5 btn-rounded align-self-center">Get Started</a>
+                                    <button class="btn" style="height: 100%; padding: 0; border: none;"></button>
+                                    
+                                    <div class="burger-button-wrapper">
+                                        <button id="burgerBtn" class="burger-reveal-btn" aria-label="Open contact form">
+                                            <img src="assets/image/burger_contact.png" alt="Contact Burger" class="burger-icon-img">
+                                        </button>
+                                    </div>
+                                </div>
+                                
+                                <h5>Article Cards</h5>
+                                <div class="article-card ds-article-card">
+                                        <div class="article-image">
+                                            <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=250&fit=crop" alt="Restaurant Tips">
+                                            <span class="article-category">Tips</span>
+                                        </div>
+                                        <div class="article-content">
+                                            <div class="article-meta">
+                                                <i class="bi bi-calendar3"></i> Jan 15, 2026
+                                                <span class="ms-2"><i class="bi bi-clock"></i> 5 min read</span>
+                                            </div>
+                                            <h5>Easy Ordering With QUANTOM !</h5>
+                                            <p class="text-muted small">Discover proven strategies to reduce ticket times and improve customer satisfaction.</p>
+                                            <a href="article-details/quantom-ordering.html" class="article-link">Read More <i class="bi bi-arrow-right"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <h5 class="pt-5">Feature Cards</h5>
+                                <div class="counter-feature-card ds-counter-feature-card">
+                                    <div class="feature-card-front">
+                                        <div class="feature-icon-wrap">
+                                            <div class="feature-icon-bg">
+                                                <i class="bi bi-menu-button-wide"></i>
+                                            </div>
+                                        </div>
+                                        <h5>Menu Management</h5>
+                                        <p class="feature-short">Update items, prices, and 86s in seconds</p>
+                                    </div>
+                                    <div class="feature-card-back">
+                                        <ul class="feature-list">
+                                            <li><i class="bi bi-check2"></i> Drag & drop menu builder</li>
+                                            <li><i class="bi bi-check2"></i> Real-time price updates</li>
+                                            <li><i class="bi bi-check2"></i> Real-time availability updates</li>
+                                            <li><i class="bi bi-check2"></i> Photo & description manager</li>
+                                            <li><i class="bi bi-check2"></i> Combo & modifier setup</li>
+                                        </ul>
+                                        <div class="feature-stat">
+                                            <span class="stat-number-sm">50+</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h5 class="pt-5">Picture Cards</h5>
+                                <div class="col-md-4">
+                                    <div class="pricing-card popular" data-aos="fade-up" data-aos-duration="1200">
+                                        <span class="badge badge-popular">POPULAR</span>
+                                        <h6 class="text-muted">Pro</h6>
+                                        <h3 class="pricing-price">$99/mo</h3>
+                                        <p class="small text-muted">Unlimited staff, KDS, integrations, priority support.</p>
+                                        <ul class="pricing-features">
+                                            <li><i class="bi bi-check-circle-fill"></i> Unlimited Staff</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> Full KDS</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> All Integrations</li>
+                                            <li><i class="bi bi-check-circle-fill"></i> Priority Support</li>
+                                        </ul>
+                                        <a href="#" class="btn btn-dark w-100 btn-rounded">Get Started</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+                    </main>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+   <footer class="footer-section-new">
+            <!-- Background Image with Overlay -->
+            <div class="footer-bg-image"></div>
+            <div class="footer-overlay"></div>
+            
+            <!-- Floating Food Decorations -->
+            <div class="footer-float-decoration footer-float-pizza">
+                <img src="assets/image/pizza_float.png" alt="">
+            </div>
+            <div class="footer-float-decoration footer-float-fries">
+                <img src="assets/image/fries_float.png" alt="">
+            </div>
+            <div class="footer-float-decoration footer-float-chicken">
+                <img src="assets/image/chicken_float.png" alt="">
+            </div>
+
+            <!-- Scroll to Top Button -->
+            <button id="scrollToTop" class="scroll-to-top-btn" aria-label="Scroll to top">
+                <i class="bi bi-chevron-up"></i>
+                <div class="scroll-ring"></div>
+            </button>
+
+            <div class="footer-content-wrapper">
+
+                <!-- Main Footer Content -->
+                <div class="footer-main">
+                    <div class="container">
+                        <div class="row g-4">
+                            <!-- Brand Column -->
+                            <div class="col-lg-4">
+                                <div class="footer-brand-card">
+                                    <div class="footer-logo-new">
+                                        <img src="assets/image/quantom-icon.png" alt="QUANTOM">
+                                    </div>
+                                    <p class="footer-brand-tagline">Smart POS for <span class="highlight">Fast Food</span> Success</p>
+                                    
+                                    <!-- Newsletter -->
+                                    <div class="footer-newsletter-new">
+                                        <p class="newsletter-label"><i class="bi bi-bell-fill"></i> Get tasty updates!</p>
+                                        <form class="newsletter-form-new" id="newsletterFormNew">
+                                            <input type="email" class="newsletter-input-new" placeholder="Your email" required>
+                                            <button type="submit" class="newsletter-submit-new">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Links Columns -->
+                            <div class="col-6 col-lg-2">
+                                <div class="footer-links-card">
+                                    <h5 class="footer-col-title"><i class="bi bi-grid-3x3-gap-fill"></i> Product</h5>
+                                    <ul class="footer-link-list">
+                                        <li><a href="index.html#features" class="footer-link-new"><i class="bi bi-chevron-right"></i> Features</a></li>
+                                        <li><a href="index.html#pricing" class="footer-link-new"><i class="bi bi-chevron-right"></i> Pricing</a></li>
+                                        <li><a href="index.html#articles" class="footer-link-new"><i class="bi bi-chevron-right"></i> Integrations</a></li>
+                                        <li><a href="index.html#contact" class="footer-link-new"><i class="bi bi-chevron-right"></i> Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            
+                            <div class="col-6 col-lg-2">
+                                <div class="footer-links-card">
+                                    <h5 class="footer-col-title"><i class="bi bi-folder-fill"></i> Resources</h5>
+                                    <ul class="footer-link-list">
+                                        <li><a href="articles.html" class="footer-link-new"><i class="bi bi-chevron-right"></i> Articles</a></li>
+                                        <li><a href="faq.html" class="footer-link-new"><i class="bi bi-chevron-right"></i> FAQ</a></li>
+                                        <li><a href="portfolio.html" class="footer-link-new"><i class="bi bi-chevron-right"></i> Project Team </a></li>
+                                        <li><a href="design-system.html" class="footer-link-new"><i class="bi bi-chevron-right"></i> Design System </a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-2">
+                                <div class="footer-links-card">
+                                    <h5 class="footer-col-title"><i class="bi bi-heart-fill"></i> Connect</h5>
+                                    <div class="footer-social-new">
+                                        <a href="#" class="social-icon-new" aria-label="Instagram" style="--social-color: #E4405F;">
+                                            <i class="bi bi-instagram"></i>
+                                        </a>
+                                        <a href="#" class="social-icon-new" aria-label="Facebook" style="--social-color: #1877F2;">
+                                            <i class="bi bi-facebook"></i>
+                                        </a>
+                                        <a href="#" class="social-icon-new" aria-label="Twitter" style="--social-color: #1DA1F2;">
+                                            <i class="bi bi-twitter-x"></i>
+                                        </a>
+                                        <a href="#" class="social-icon-new" aria-label="LinkedIn" style="--social-color: #0A66C2;">
+                                            <i class="bi bi-linkedin"></i>
+                                        </a>
+                                        <a href="#" class="social-icon-new" aria-label="YouTube" style="--social-color: #FF0000;">
+                                            <i class="bi bi-youtube"></i>
+                                        </a>
+                                    </div>
+                                    <div class="footer-contact-mini mt-3">
+                                        <p><i class="bi bi-envelope-fill"></i> contact@quantom.id</p>
+                                        <p><i class="bi bi-telephone-fill"></i> +1 234 567 890</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Bottom Bar -->
+                <div class="footer-bottom-new">
+                    <div class="container">
+                        <div class="footer-bottom-inner">
+                            <p class="copyright-new">&copy; 2026 QUANTOM</p>
+                            <div class="footer-bottom-links">
+                                <a href="#">Privacy</a>
+                                <span class="divider">|</span>
+                                <a href="#">Terms</a>
+                                <span class="divider">|</span>
+                                <a href="#">Sitemap</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
